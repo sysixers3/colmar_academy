@@ -198,7 +198,7 @@ nav ul li a:hover {
 }
 
 .info-right h3 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #4d4d4d;
 }
@@ -211,4 +211,52 @@ nav ul li a:hover {
 .info-right a {
   text-decoration: none;
   color: blue;
+}
+
+/*Start learning*/
+
+.start-learning {
+  max-width: inherit;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.start-learning h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4d4d4d;
+  padding: 2rem 0;
+}
+
+.row {
+  display: flex;
+  max-width: inherit;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.start-learning .learn-block {
+  width: 25%;
+  margin: 0 1rem;
+  background-color: white;
+}
+
+.start-learning .learn-block img {
+  width: 100%;
+}
+
+.start-learning .learn-block .text-box {
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.start-learning .learn-block .text-box h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+.start-learning .learn-block .text-box p {
+  padding-top: 0.5rem;
 }
