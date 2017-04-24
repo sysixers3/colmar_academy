@@ -260,3 +260,71 @@ nav ul li a:hover {
 .start-learning .learn-block .text-box p {
   padding-top: 0.5rem;
 }
+
+/*Thesis*/
+
+.thesis {
+  max-width: inherit;
+  width: 100%;
+  padding-bottom: 2rem;
+  background-color: white;
+}
+
+.thesis .subthesis {
+  display: flex;
+}
+
+.thesis h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4d4d4d;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.subthesis .left video {
+  width: 90%;
+  padding: 1rem 1rem 1.5rem 1.5rem;
+}
+
+.subthesis .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.subthesis .left .text-box {
+  width: 90%;
+  margin: 1.5rem;
+}
+
+.subthesis .left .text-box h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+.subthesis .left .text-box p {
+  padding: 0.5rem 0;
+}
+
+/*footer*/
+#footer {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  background-color: white;
+  border-top: 1px solid grey;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+#footer .copyright {
+  padding-left: 1.5rem;
+}
+
+#footer .terms {
+  padding-right: 1.5rem;
+}
