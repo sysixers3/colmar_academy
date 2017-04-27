@@ -28,6 +28,10 @@ nav {
   position: fixed;
 }
 
+#small-nav {
+  display: none;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -41,7 +45,8 @@ nav {
 }
 
 .logo p span {
-  color: #999999;
+  /*color: #999999;*/
+  color: #ff6600;
   font-weight: 500;
 }
 
@@ -97,6 +102,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 32px;
 }
 
 .jumbotron .right h1 {
@@ -215,6 +221,10 @@ nav ul li a:hover {
 
 /*Start learning*/
 
+.small-learning {
+  display: none;
+}
+
 .start-learning {
   max-width: inherit;
   width: 100%;
@@ -325,6 +335,152 @@ nav ul li a:hover {
   padding-left: 1.5rem;
 }
 
-#footer .terms {
-  padding-right: 1.5rem;
+#footer .terms a{
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  #small-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+    background-color: white;
+    max-width: inherit;
+    width: 100%;
+    position: fixed;
+  }
+
+  #small-nav img {
+    transition: background-color 1s;
+  }
+
+  #small-nav img:hover {
+    background-color: #ff6600;
+  }
+
+  .jumbotron {
+    flex-direction: column;
+  }
+
+  .jumbotron .left {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .jumbotron .left img {
+    width: 100%;
+    height: auto;
+  }
+
+  .jumbotron .right {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 16px;
+    align-items: center;
+  }
+
+  .information .left {
+    display: none;
+  }
+
+  .information .right {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .information .right .right-subs {
+    flex-direction: column;
+  }
+
+  .information .right .right-subs {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  #top-right-info img {
+    content: url("../images/information-orientation-mobile.jpg");
+  }
+
+  #middle-right-info img {
+    content: url("../images/information-campus-mobile.jpg");
+  }
+
+  #bottom-right-info img {
+    content: url("../images/information-guest-lecture-mobile.jpg");
+  }
+
+  .information .right .right-subs img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    padding-left: 16px;
+  }
+
+  .information .right .right-subs .info-right {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 32px;
+    padding-bottom: 32px;
+  }
+
+  .start-learning {
+    background-color: white;
+    border: 1px grey solid;
+  }
+
+  .start-learning .row {
+    display: none;
+  }
+
+  .small-learning {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .small-learning a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4d4d4d;
+    text-decoration: none;
+    padding: 16px;
+    margin: 8px 16px;
+    background-color: grey;
+  }
+
+  .small-learning a:hover {
+    background-color: #ff6600;
+  }
+
+  .thesis .right {
+    display: none;
+  }
+
+  .thesis .left .text-box {
+    display: none;
+  }
+
+  .thesis .left {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .subthesis .left video {
+    width: 100%;
+    padding: 0;
+  }
+
+  #footer .terms {
+    display: none;
+  }
+
+  #footer {
+    padding-top: 24px;
+  }
+
 }
