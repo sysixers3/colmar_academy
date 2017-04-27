@@ -3,7 +3,8 @@ html,
 body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
-  background-color: #d9d9d9;
+  background-color: #1D2731;
+  font-weight: 300;
 }
 
 .container {
@@ -13,7 +14,7 @@ body {
 }
 
 .main {
-  background-color: #cccccc;
+  background-color: #CDCDCD;
   max-width: inherit;
 }
 
@@ -22,7 +23,7 @@ nav {
   display: flex;
   justify-content: space-between;
   height: 64px;
-  background-color: white;
+  background-color: #E9E9E9;
   max-width: inherit;
   width: 100%;
   position: fixed;
@@ -36,7 +37,7 @@ nav {
   display: flex;
   align-items: center;
   margin-left: 24px;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 1.5rem;
 }
 
@@ -45,9 +46,8 @@ nav {
 }
 
 .logo p span {
-  /*color: #999999;*/
-  color: #ff6600;
-  font-weight: 500;
+  color: #3333ff;
+  font-weight: 600;
 }
 
 nav ul {
@@ -67,7 +67,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ff6600;
+  color: #3333ff;
 }
 
 .left {
@@ -108,7 +108,7 @@ nav ul li a:hover {
 .jumbotron .right h1 {
   font-size: 2.7rem;
   font-weight: 900;
-  color: #4d4d4d;
+  color: #3333ff;
   padding: 1rem 0;
 }
 
@@ -125,13 +125,13 @@ nav ul li a:hover {
   background-color: #333333;
   margin-top: 2rem;
   width: 80%;
-  color: white;
+  color: #E9E9E9;
   text-decoration: none;
   border-radius: 5px;
 }
 
 .jumbotron .right a:hover {
-  color: #ff6600;
+  color: #3333ff;
 }
 
 /*Information*/
@@ -139,7 +139,7 @@ nav ul li a:hover {
 .information {
   display: flex;
   max-width: inherit;
-  background-color: white;
+  background-color: #D9D9D9;
   padding-bottom: 2rem;
 }
 
@@ -162,10 +162,6 @@ nav ul li a:hover {
   align-items: center;
 }
 
-.right-subs:hover {
-  background-color: #cccccc;
-}
-
 .right-subs img {
   padding: 1rem;
   width: 35%;
@@ -184,19 +180,15 @@ nav ul li a:hover {
 .information .left .info-left h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #4d4d4d;
+  color: #3333ff;
 }
 
 .information .left .info-left p {
-  font-size: 1.1rem;
-}
-
-.information .left .info-left p {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 #quote p {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .info-right {
@@ -204,19 +196,25 @@ nav ul li a:hover {
 }
 
 .info-right h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
-  color: #4d4d4d;
+  color: #3333ff;
 }
 
 .info-right p {
+  font-size: 1.5rem;
   padding: 8px 0;
   margin-bottom: 1.5rem;
 }
 
 .info-right a {
+  font-size: 1rem;
   text-decoration: none;
-  color: blue;
+  color: darkblue;
+}
+
+.info-right a:hover {
+  color: #3333ff;
 }
 
 /*Start learning*/
@@ -235,7 +233,7 @@ nav ul li a:hover {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
-  color: #4d4d4d;
+  color: #3333ff;
   padding: 2rem 0;
 }
 
@@ -249,11 +247,11 @@ nav ul li a:hover {
 .start-learning .learn-block {
   width: 25%;
   margin: 0 1rem;
-  background-color: white;
+  background-color: #D9D9D9;
 }
 
 .start-learning .learn-block:hover {
-  background-color: #ff6600;
+  background-color: white;
 }
 
 .start-learning .learn-block img {
@@ -266,12 +264,13 @@ nav ul li a:hover {
 }
 
 .start-learning .learn-block .text-box h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
-  color: #4d4d4d;
+  color: #3333ff;
 }
 
 .start-learning .learn-block .text-box p {
+  font-size: 1.2rem;
   padding-top: 0.5rem;
 }
 
@@ -281,7 +280,7 @@ nav ul li a:hover {
   max-width: inherit;
   width: 100%;
   padding-bottom: 2rem;
-  background-color: white;
+  background-color: #D9D9D9;
 }
 
 .thesis .subthesis {
@@ -292,7 +291,7 @@ nav ul li a:hover {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
-  color: #4d4d4d;
+  color: #3333ff;
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
@@ -317,10 +316,11 @@ nav ul li a:hover {
 .subthesis .left .text-box h3 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #4d4d4d;
+  color: #3333ff;
 }
 
 .subthesis .left .text-box p {
+  font-size: 1.5rem;
   padding: 0.5rem 0;
 }
 
@@ -329,7 +329,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   height: 4rem;
-  background-color: white;
+  background-color: #E9E9E9;
   border-top: 1px solid grey;
   align-items: center;
   padding-bottom: 2rem;
@@ -339,9 +339,14 @@ nav ul li a:hover {
   padding-left: 1.5rem;
 }
 
-#footer .terms a{
+#footer .terms a {
   margin-right: 1rem;
   text-decoration: none;
+  color: darkblue;
+}
+
+#footer .terms a:hover {
+  color: #3333ff;
 }
 
 @media only screen and (max-width: 768px) {
@@ -354,18 +359,10 @@ nav ul li a:hover {
     justify-content: space-around;
     align-items: center;
     height: 64px;
-    background-color: white;
+    background-color: #E9E9E9;
     max-width: inherit;
     width: 100%;
     position: fixed;
-  }
-
-  #small-nav img {
-    transition: background-color 1s;
-  }
-
-  #small-nav img:hover {
-    background-color: #ff6600;
   }
 
   .jumbotron {
@@ -434,7 +431,6 @@ nav ul li a:hover {
   }
 
   .start-learning {
-    background-color: white;
     border: 1px grey solid;
   }
 
@@ -448,9 +444,9 @@ nav ul li a:hover {
   }
 
   .small-learning a {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
-    color: #4d4d4d;
+    color: #3333ff;
     text-decoration: none;
     padding: 16px;
     margin: 8px 16px;
@@ -458,7 +454,7 @@ nav ul li a:hover {
   }
 
   .small-learning a:hover {
-    background-color: #ff6600;
+    background-color: #E9E9E9;
   }
 
   .thesis .right {
