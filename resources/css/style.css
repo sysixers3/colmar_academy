@@ -252,6 +252,10 @@ nav ul li a:hover {
   background-color: white;
 }
 
+.start-learning .learn-block:hover {
+  background-color: #ff6600;
+}
+
 .start-learning .learn-block img {
   width: 100%;
 }
